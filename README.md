@@ -12,8 +12,9 @@ fps=float(input("Enter fps from user"))
 #Convert string to int
 int=6.673*(fps)
 #Get number of frames from user
-f=(G*fps)
+f=float(input("Enter f from user"))
 #Convert string to int
+int=6.673*(f)
 #Calculate time object is falling
 time=f/fps
 #Calculate distance in pixels object has fallen
